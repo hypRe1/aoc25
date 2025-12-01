@@ -12,7 +12,7 @@ with open("PATH/input.txt") as f:
 
 def q1() -> int:
     a = 0
-    for line in inputData.split():
+    for line in inputData:
         pass
     return -1
 
