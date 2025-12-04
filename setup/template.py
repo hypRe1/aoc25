@@ -8,7 +8,7 @@ from update import update
 TEMPLATE = """# This is an auto-generated template
 
 with open("PATH/input.txt") as f:
-    inputData = f.readlines()
+    inputData = f.read().splitlines()
 
 def q1() -> int:
     a = 0
